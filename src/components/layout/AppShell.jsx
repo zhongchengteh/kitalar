@@ -16,7 +16,7 @@ export default function AppShell() {
               <Leaf className="size-5" />
             </span>
             <div>
-              <p className="text-sm font-black text-slate-950">Kitalar</p>
+              <p className="text-sm font-black text-slate-950">Kitarlar</p>
             </div>
           </div>
           <div className="relative">

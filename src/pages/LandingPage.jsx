@@ -12,7 +12,7 @@ export default function LandingPage() {
         </div>
 
         <section className="mt-6 text-center">
-          <h1 className="text-4xl font-black text-slate-950">Kitalar</h1>
+          <h1 className="text-4xl font-black text-slate-950">Kitarlar</h1>
           <p className="mt-3 text-base font-semibold text-eco-800">Recycle smarter. Earn greener.</p>
           <p className="mx-auto mt-3 max-w-sm text-sm leading-6 text-slate-500">
             A simple recycling reward prototype for scanning QR bins, collecting points, learning better habits, and finding recycling locations.
