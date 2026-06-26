@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import AppShell from "./components/layout/AppShell.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
@@ -30,7 +30,7 @@ export default function App() {
         <Route path="/app/settings" element={<SettingsPage />} />
         <Route path="/admin" element={<AdminDashboardPage />} />
       </Route>
-      <Route path="*" element={<Navigate to="/" replace />} />
+      <Route path="*" element={<LandingPage />} />
     </Routes>
   );
 }
